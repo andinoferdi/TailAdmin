@@ -5,7 +5,6 @@ import CountryMap from "@/components/dashboard/home/CountryMap";
 import { Dropdown } from "@/components/ui/dropdown/Dropdown";
 import { DropdownItem } from "@/components/ui/dropdown/DropdownItem";
 import { MoreDotIcon } from "@/icons";
-import Image from "next/image";
 import { useState } from "react";
 
 export default function DemographicCard() {
@@ -54,8 +53,8 @@ export default function DemographicCard() {
       <div className="space-y-5">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <div className="items-center w-full rounded-full max-w-8">
-              <Image width={48} height={48} src="/images/country/country-01.svg" alt="usa" className="w-full" />
+            <div className="flex h-12 w-12 items-center justify-center rounded-full bg-gray-200 text-sm font-semibold text-gray-700 dark:bg-gray-800 dark:text-white/90">
+              US
             </div>
             <div>
               <p className="font-semibold text-gray-800 text-theme-sm dark:text-white/90">USA</p>
@@ -71,8 +70,8 @@ export default function DemographicCard() {
         </div>
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <div className="items-center w-full rounded-full max-w-8">
-              <Image width={48} height={48} src="/images/country/country-02.svg" alt="france" className="w-full" />
+            <div className="flex h-12 w-12 items-center justify-center rounded-full bg-gray-200 text-sm font-semibold text-gray-700 dark:bg-gray-800 dark:text-white/90">
+              FR
             </div>
             <div>
               <p className="font-semibold text-gray-800 text-theme-sm dark:text-white/90">France</p>

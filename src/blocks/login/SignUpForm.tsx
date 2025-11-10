@@ -3,7 +3,7 @@ import Checkbox from "@/components/form/input/Checkbox";
 import Input from "@/components/form/input/InputField";
 import Label from "@/components/form/Label";
 import { EyeCloseIcon, EyeIcon } from "@/icons";
-import Image from "next/image";
+import { IconBrandNextjs } from "@tabler/icons-react";
 import React, { useState } from "react";
 
 type SignUpFormProps = {
@@ -16,14 +16,9 @@ export default function SignUpForm({ onSwitchToLogin }: SignUpFormProps) {
 
   return (
     <div className="space-y-6">
-      <div className="flex flex-col items-center gap-2">
-        <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-brand-50">
-          <Image
-            src="/images/logo/logo-icon.svg"
-            alt="TailAdmin"
-            width={32}
-            height={32}
-          />
+      <div className="flex flex-col items-center gap-3">
+        <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-brand-50 text-brand-600 dark:bg-white/10 dark:text-white">
+          <IconBrandNextjs className="h-7 w-7" stroke={1.25} />
         </div>
         <div className="text-center">
           <h2 className="text-xl font-semibold text-gray-900 dark:text-white">
@@ -86,9 +81,15 @@ export default function SignUpForm({ onSwitchToLogin }: SignUpFormProps) {
                 className="absolute z-30 -translate-y-1/2 cursor-pointer right-4 top-1/2"
               >
                 {showPassword ? (
-                  <EyeIcon className="fill-gray-500 dark:fill-gray-400" />
+                  <EyeIcon
+                    className="h-5 w-5 text-gray-500 transition-colors hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200"
+                    stroke={1.75}
+                  />
                 ) : (
-                  <EyeCloseIcon className="fill-gray-500 dark:fill-gray-400" />
+                  <EyeCloseIcon
+                    className="h-5 w-5 text-gray-500 transition-colors hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200"
+                    stroke={1.75}
+                  />
                 )}
               </span>
             </div>

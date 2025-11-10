@@ -1,5 +1,4 @@
 import GridShape from "@/components/common/GridShape";
-import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -12,20 +11,9 @@ export default function NotFound() {
           ERROR
         </h1>
 
-        <Image
-          src="/images/error/404.svg"
-          alt="404"
-          className="dark:hidden"
-          width={472}
-          height={152}
-        />
-        <Image
-          src="/images/error/404-dark.svg"
-          alt="404"
-          className="hidden dark:block"
-          width={472}
-          height={152}
-        />
+        <div className="mx-auto flex h-32 w-full max-w-[320px] items-center justify-center rounded-3xl bg-gray-100 text-5xl font-black tracking-widest text-gray-800 dark:bg-white/5 dark:text-white sm:h-36 sm:max-w-[420px] sm:text-6xl">
+          404
+        </div>
 
         <p className="mt-10 mb-6 text-base text-gray-700 dark:text-gray-400 sm:text-lg">
           We can’t seem to find the page you are looking for!
