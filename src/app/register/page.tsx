@@ -1,6 +1,6 @@
 
-import RegisterPage from "@/blocks/register";
 import type { Metadata } from "next";
+import { redirect } from "next/navigation";
 
 export const metadata: Metadata = {
   title: "Daftar TailAdmin",
@@ -8,6 +8,6 @@ export const metadata: Metadata = {
 };
 
 export default function Page() {
-  return <RegisterPage />;
+  redirect("/login");
 }
 
