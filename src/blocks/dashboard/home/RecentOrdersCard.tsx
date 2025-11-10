@@ -1,5 +1,5 @@
 
-import Badge from "@/components/ui/badge/Badge";
+import Badge from "@/blocks/dashboard/ui-elements/badge/Badge";
 import { Table, TableBody, TableCell, TableHeader, TableRow } from "@/components/ui/table";
 import Image from "next/image";
 

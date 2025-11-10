@@ -1,7 +1,7 @@
 
 import GridShape from "@/components/common/GridShape";
 import ThemeTogglerTwo from "@/components/common/ThemeTogglerTwo";
-import SignUpForm from "@/components/auth/SignUpForm";
+import SignUpForm from "@/blocks/register/SignUpForm";
 import Image from "next/image";
 import Link from "next/link";
 

@@ -1,5 +1,5 @@
 import PageBreadcrumb from "@/components/common/PageBreadCrumb";
-import Badge from "@/components/ui/badge/Badge";
+import Badge from "./Badge";
 import { PlusIcon } from "@/icons";
 
 const colors = ["primary", "success", "error", "warning", "info", "light", "dark"] as const;

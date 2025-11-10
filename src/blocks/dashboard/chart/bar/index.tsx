@@ -1,4 +1,4 @@
-import BarChartOne from "@/components/charts/bar/BarChartOne";
+import BarChart from "./BarChart";
 import ComponentCard from "@/components/common/ComponentCard";
 import PageBreadcrumb from "@/components/common/PageBreadCrumb";
 
@@ -8,7 +8,7 @@ export default function DashboardBarChartBlock() {
       <PageBreadcrumb pageTitle="Bar Chart" />
       <div className="space-y-6">
         <ComponentCard title="Bar Chart 1">
-          <BarChartOne />
+          <BarChart />
         </ComponentCard>
       </div>
     </div>

@@ -1,5 +1,5 @@
 import PageBreadcrumb from "@/components/common/PageBreadCrumb";
-import VideosExample from "@/components/ui/video/VideosExample";
+import VideosExample from "./VideosExample";
 
 export default function DashboardVideosBlock() {
   return (

@@ -1,5 +1,5 @@
 
-import Badge from "@/components/ui/badge/Badge";
+import Badge from "@/blocks/dashboard/ui-elements/badge/Badge";
 import { ArrowDownIcon, BoxIconLine } from "@/icons";
 
 export default function OrdersCard() {

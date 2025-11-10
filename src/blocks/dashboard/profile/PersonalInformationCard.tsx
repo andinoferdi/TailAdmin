@@ -1,7 +1,7 @@
 "use client";
 
 import { useModal } from "@/hooks/useModal";
-import Button from "@/components/ui/button/Button";
+import Button from "@/blocks/dashboard/ui-elements/buttons/Button";
 import Input from "@/components/form/input/InputField";
 import Label from "@/components/form/Label";
 import { Modal } from "@/components/ui/modal";

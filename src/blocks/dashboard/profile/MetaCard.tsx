@@ -2,7 +2,7 @@
 
 import { useModal } from "@/hooks/useModal";
 import { Modal } from "@/components/ui/modal";
-import Button from "@/components/ui/button/Button";
+import Button from "@/blocks/dashboard/ui-elements/buttons/Button";
 import Input from "@/components/form/input/InputField";
 import Label from "@/components/form/Label";
 import Image from "next/image";

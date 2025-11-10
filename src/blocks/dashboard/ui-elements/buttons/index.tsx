@@ -1,6 +1,6 @@
 import ComponentCard from "@/components/common/ComponentCard";
 import PageBreadcrumb from "@/components/common/PageBreadCrumb";
-import Button from "@/components/ui/button/Button";
+import Button from "./Button";
 import { BoxIcon } from "@/icons";
 
 const buttonSizes = ["sm", "md"] as const;

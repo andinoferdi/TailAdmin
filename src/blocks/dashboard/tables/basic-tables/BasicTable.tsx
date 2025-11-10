@@ -5,9 +5,9 @@ import {
   TableCell,
   TableHeader,
   TableRow,
-} from "../ui/table";
+} from "@/components/ui/table";
 
-import Badge from "../ui/badge/Badge";
+import Badge from "@/blocks/dashboard/ui-elements/badge/Badge";
 import Image from "next/image";
 
 interface Order {

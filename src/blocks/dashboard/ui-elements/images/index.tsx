@@ -1,8 +1,8 @@
 import ComponentCard from "@/components/common/ComponentCard";
 import PageBreadcrumb from "@/components/common/PageBreadCrumb";
-import ResponsiveImage from "@/components/ui/images/ResponsiveImage";
-import ThreeColumnImageGrid from "@/components/ui/images/ThreeColumnImageGrid";
-import TwoColumnImageGrid from "@/components/ui/images/TwoColumnImageGrid";
+import ResponsiveImage from "./ResponsiveImage";
+import ThreeColumnImageGrid from "./ThreeColumnImageGrid";
+import TwoColumnImageGrid from "./TwoColumnImageGrid";
 
 export default function DashboardImagesBlock() {
   return (

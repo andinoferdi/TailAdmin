@@ -1,4 +1,4 @@
-import BasicTableOne from "@/components/tables/BasicTableOne";
+import BasicTableOne from "./BasicTable";
 import ComponentCard from "@/components/common/ComponentCard";
 import PageBreadcrumb from "@/components/common/PageBreadCrumb";
 

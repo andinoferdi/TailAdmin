@@ -55,7 +55,7 @@ const navItems: NavItem[] = [
   {
     name: "Pages",
     icon: <PageIcon />,
-    subItems: [{ name: "Blank Page", path: "/dashboard/blank", pro: false }],
+    subItems: [{ name: "Blank Page", path: "/dashboard/page/blank-page", pro: false }],
   },
 ];
 

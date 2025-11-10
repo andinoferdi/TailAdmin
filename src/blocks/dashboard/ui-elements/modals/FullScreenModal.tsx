@@ -1,9 +1,9 @@
 "use client";
 import { useModal } from "@/hooks/useModal";
-import ComponentCard from "../../common/ComponentCard";
+import ComponentCard from "@/components/common/ComponentCard";
 
-import Button from "../../ui/button/Button";
-import { Modal } from "../../ui/modal";
+import Button from "@/blocks/dashboard/ui-elements/buttons/Button";
+import { Modal } from "@/components/ui/modal";
 
 export default function FullScreenModal() {
   const {

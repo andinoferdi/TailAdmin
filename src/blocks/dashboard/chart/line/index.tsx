@@ -1,6 +1,6 @@
 import ComponentCard from "@/components/common/ComponentCard";
 import PageBreadcrumb from "@/components/common/PageBreadCrumb";
-import LineChartOne from "@/components/charts/line/LineChartOne";
+import LineChart from "./LineChart";
 
 export default function DashboardLineChartBlock() {
   return (
@@ -8,7 +8,7 @@ export default function DashboardLineChartBlock() {
       <PageBreadcrumb pageTitle="Line Chart" />
       <div className="space-y-6">
         <ComponentCard title="Line Chart 1">
-          <LineChartOne />
+          <LineChart />
         </ComponentCard>
       </div>
     </div>
